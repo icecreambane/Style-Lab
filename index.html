@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Lab</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+     <h1 id="title"> STYLE LAB </h1>
+
+
+    <div id="app">
+
+
+        <div class="card canvasCard">
+            <canvas id="dressCanvas" width="500" height="410"></canvas>
+            <div class="buttonRow">
+                <button id="saveOutfitBtn">Save Outfit</button>
+                <button id="randomBtn">Randomize</button>
+            </div>
+            
+            <div id="savedOutfits"></div>
+
+            
+        </div>
+
+        <div class="card uiCard">
+
+            <div class="assetSection">
+                <div class="sectionTitle">Face + Base</div>
+                <div id="categoryBarMain"></div>
+            </div>
+
+            <div class="assetSection">
+                <div class="sectionTitle">Hair + Clothes + Accessories</div>
+                <div id="categoryBarExtra"></div>
+            </div>
+
+            <div class="assetSection">
+                <div class="sectionTitle">Try a combo! </div>
+                <div id="categoryBarExtra2"></div>
+            </div>
+
+            <div id="assetPreview"></div>
+
+       
+</div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body> 
+</html>
